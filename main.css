@@ -1,0 +1,90 @@
+/*Common Elements*/
+body {
+    font-size: 90%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #39150c url(./Eagle\ Nebula.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: lightcoral;
+}
+
+h2 {
+    color: lightcoral;
+}
+
+p {
+    color: lightskyblue;
+}
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+/*Header*/
+/*Nav Bars*/
+nav {
+    color: lightblue;
+    font-size: 1.7em;
+    letter-spacing: .04em;
+    padding: 1.0em 1.0em .5em;
+    margin: 1.0em 0;
+    /* float: left; */
+}
+nav ul {
+    color: lightblue;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: lightblue;
+    background-color: white;
+}
+ nav li a:visited {
+     color: lightskyblue;
+ }
+/*Sidebar Section*/
+/*Main Section*/
+section #main {
+    display: inline-block;
+}
+/*Footer*/
+footer {
+    color: lightskyblue;
+    text-align: center;
+    display: inline-block;
+    font-size: 100%;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    color: lightskyblue;
+    font-size: 80%;
+}
+
+footer ul li {
+    display: inline-block;
+    color: lightskyblue;
+    font-size: 80%;
+}
+
+footer a, footer a:visited {
+    color: lightskyblue;
+
+}
+
